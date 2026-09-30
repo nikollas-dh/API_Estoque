@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "API_Estoque.Controllers.MaterialController",
+    "Method": "ListarProdutos",
+    "RelativePath": "api/Material",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Estoque.Controllers.MaterialController",
+    "Method": "CadastrarProduto",
+    "RelativePath": "api/Material/Cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "material",
+        "Type": "API_Estoque.Models.Materiai",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Estoque.Controllers.MovimentacaoController",
+    "Method": "ListarTodas",
+    "RelativePath": "api/Movimentacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Estoque.Controllers.MovimentacaoController",
+    "Method": "RegistrarEntrada",
+    "RelativePath": "api/Movimentacao/Entrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movimentacao",
+        "Type": "API_Estoque.Models.Movimentacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Estoque.Controllers.MovimentacaoController",
+    "Method": "ListarEntradas",
+    "RelativePath": "api/Movimentacao/Entradas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Estoque.Controllers.MovimentacaoController",
+    "Method": "RegistrarSaida",
+    "RelativePath": "api/Movimentacao/Saida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movimentacao",
+        "Type": "API_Estoque.Models.Movimentacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Estoque.Controllers.MovimentacaoController",
+    "Method": "ListarSaidas",
+    "RelativePath": "api/Movimentacao/Saidas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
